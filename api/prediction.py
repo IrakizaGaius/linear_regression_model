@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field, ValidationError
 from typing import Annotated
@@ -8,7 +9,8 @@ import numpy as np
 
 # Load the model and scaler
 try:
-    model_data = joblib.load('api/best_model.pkl')
+    model_path = os.path.join(os.path.dirname(__file__), 'best_model.pkl')
+    model_data = joblib.load(model_path)
     best_model = model_data['model']
     scaler = model_data['scaler']
     feature_names = model_data['feature_names']
