@@ -6,7 +6,7 @@ GridGuardian uses a machine learning model to predict household appliance energy
 
 ## 📊 Source of Data
 
-The dataset used to train the model comes from Kaggle: Smart Home Energy Consumption Dataset. It includes detailed records of energy consumption across various household appliances, making it ideal for building predictive models.
+The dataset used to train the model comes from [Kaggle: Smart Home Energy Consumption Dataset](https://www.kaggle.com/datasets/mexwell/smart-home-energy-consumption/data). It includes detailed records of energy consumption across various household appliances, making it ideal for building predictive models.
 
 ## ⚙️ Data Preprocessing
 
