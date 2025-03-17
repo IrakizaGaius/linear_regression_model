@@ -8,7 +8,7 @@ import numpy as np
 
 # Load the model and scaler
 try:
-    model_data = joblib.load('best_model.pkl')
+    model_data = joblib.load('api/best_model.pkl')
     best_model = model_data['model']
     scaler = model_data['scaler']
     feature_names = model_data['feature_names']

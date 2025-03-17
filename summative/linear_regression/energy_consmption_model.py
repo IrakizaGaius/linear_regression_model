@@ -94,7 +94,7 @@ joblib.dump({
     'model': best_model,
     'scaler': scaler,
     'feature_names': X.columns.tolist()
-}, 'best_model.pkl')
+}, 'api/best_model.pkl')
 
 print(f"Saved best model: {best_model_name} with MSE: {lowest_loss:.4f}")
 
