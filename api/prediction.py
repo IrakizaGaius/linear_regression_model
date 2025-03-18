@@ -34,6 +34,7 @@ app.add_middleware(
 # Pydantic model for input validation
 class PredictionRequest(BaseModel):
     Household_Size: Annotated[int, Field(ge=1, le=20)]
+    Appliance_Type_Air_Conditioning: Annotated[int, Field(ge=0, le=1, alias="Appliance_Type_Air Conditioning")]
     Appliance_Type_Dishwasher: Annotated[int, Field(ge=0, le=1)]
     Appliance_Type_Microwave: Annotated[int, Field(ge=0, le=1)]
     Appliance_Type_Washing_Machine: Annotated[int, Field(ge=0, le=1)]
@@ -43,6 +44,7 @@ class PredictionRequest(BaseModel):
     Appliance_Type_Oven: Annotated[int, Field(ge=0, le=1)]
     Appliance_Type_Heater: Annotated[int, Field(ge=0, le=1)]
     Appliance_Type_Lights: Annotated[int, Field(ge=0, le=1)]
+    Season_Fall: Annotated[int, Field(ge=0, le=1)]
     Season_Spring: Annotated[int, Field(ge=0, le=1)]
     Season_Summer: Annotated[int, Field(ge=0, le=1)]
     Season_Winter: Annotated[int, Field(ge=0, le=1)]
@@ -56,7 +58,7 @@ def predict(request: PredictionRequest):
             request.Appliance_Type_Dishwasher, request.Appliance_Type_Microwave, request.Appliance_Type_Washing_Machine,
             request.Season_Spring, request.Season_Summer, request.Season_Winter, request.Appliance_Type_Fridge,
             request.Appliance_Type_TV, request.Appliance_Type_Computer, request.Appliance_Type_Oven,
-            request.Appliance_Type_Heater, request.Appliance_Type_Lights
+            request.Appliance_Type_Heater, request.Appliance_Type_Lights, request.Appliance_Type_Air_Conditioning, request.Season_Fall
         ]])
 
         # Check feature length

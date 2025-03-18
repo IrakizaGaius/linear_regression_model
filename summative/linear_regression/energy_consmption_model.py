@@ -20,7 +20,7 @@ df = pd.read_csv('summative/linear_regression/dataset/smart_home_energy_consumpt
 df = df[['Appliance Type', 'Energy Consumption (kWh)', 'Season', 'Household Size']]
 
 # Encode categorical features
-df = pd.get_dummies(df, columns=['Appliance Type', 'Season'], drop_first=True)
+df = pd.get_dummies(df, columns=['Appliance Type', 'Season'], drop_first=False)
 
 # ======================
 # 2. EXPLORATORY DATA ANALYSIS (EDA)
