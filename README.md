@@ -4,9 +4,23 @@
 
 GridGuardian uses a machine learning model to predict household appliance energy consumption. It leverages factors like household size, appliance type, and seasonal variations to provide insights into energy usage patterns. This empowers users to make informed decisions and optimize energy consumption in their smart homes.
 
+## GridGuardian Mission Statement
+
+"Empowering Rwandan households with data-driven insights to optimize energy consumption, reduce waste, and promote sustainable living through advanced machine learning technology."
+
+**Why Optimizing Energy Consumption Matters in Rwanda:**
+
+High Reliance on Biomass: Approximately 85% of Rwanda's primary energy use comes from biomass sources, such as firewood and charcoal. This heavy reliance contributes to deforestation and environmental degradation.​
+Source: [UNL Institutional Repository Article 2022](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1141&context=ageconugensc)
+
+Dominant Residential Energy Use: Households account for about 81% of Rwanda's total final energy consumption, highlighting the significant impact of residential energy use on the country's overall energy demand. ​
+source: [International Energy Agency Reports 2022](https://www.iea.org/countries/rwanda/efficiency-demand)
+
+**Economic Implications:** Implementing energy-efficient practices can lead to substantial cost savings for households, reducing the financial burden associated with energy expenses.
+
 ## 📊 Source of Data
 
-The dataset used to train the model comes from [Kaggle: Smart Home Energy Consumption Dataset](https://www.kaggle.com/datasets/mexwell/smart-home-energy-consumption/data). It includes detailed records of energy consumption across various household appliances, making it ideal for building predictive models.
+The dataset used to train the model comes from [Kaggle: Smart Home Energy Consumption Dataset](https://www.kaggle.com/datasets/mexwell/smart-home-energy-consumption/data). It includes detailed records of energy consumption across various household appliances, making it ideal for building predictive models. This model doesnot specifically uses Rwanda as its case study. But I found it relevant to develop a model that would predict the energy Consumption o a ppliances in asmart home. to help know how to manage the energy spendings.
 
 ## ⚙️ Data Preprocessing
 
