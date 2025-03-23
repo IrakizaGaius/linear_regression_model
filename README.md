@@ -72,3 +72,63 @@ The scaler used for feature normalization was also saved to ensure consistency d
 The model’s performance was assessed using:
 Mean Squared Error (MSE)
 R² Score
+
+## How to run Grid-Guardian App
+
+### Prerequisites
+
+**Flutter SDK:** Ensure that the Flutter SDK is installed.
+
+**Dart SDK:** Included with Flutter; no separate installation needed.
+
+**Integrated Development Environment (IDE):** Recommend using Visual Studio Code or Android Studio with the Flutter and Dart plugins installed.
+
+### Installation Steps
+
+**Clone the Repository:**
+
+```bash
+git clone https://github.com/your-username/grid-guardian.git
+```
+
+**Navigate to the Project Directory:**
+
+```bash
+cd grid-guardian
+```
+
+**Install Dependencies:**
+
+```bash
+flutter pub get
+```
+
+**Running the Application:**
+
+**For iOS:**
+
+Ensure that Xcode is installed.
+
+**Open the iOS simulator:**
+
+```bash
+open -a Simulator
+```
+
+**Run the app:**
+
+```bash
+flutter run
+```
+
+**For Android:**
+
+Ensure that Android Studio and the Android SDK are installed.
+
+**Start an Android emulator or connect a physical device.**
+
+**Run the app:**
+
+```bash
+flutter run
+```
