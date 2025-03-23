@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "782618690885",
+    "project_id": "gridguardian-e7717",
+    "storage_bucket": "gridguardian-e7717.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782618690885:android:f1405aef32ce1f16046a2c",
+        "android_client_info": {
+          "package_name": "com.example.gridguardian"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl3BcxqhuWQonbFSvXbh3qJlT0pCh4WQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
