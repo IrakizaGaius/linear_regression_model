@@ -1,5 +1,12 @@
 # GridGuardian Model Documentation
 
+## Links and Resources to the whole App
+
+**GitHub Repository:** <https://github.com/IrakizaGaius/linear_regression_model.git>
+**Demo Video:** <https://www.loom.com/share/ccee943be4254bc3b8a610ca60d9d564?sid=df82dbef-c2f1-4bfc-ab31-f90a4064f173>
+**The Prediction API Endpoint(Swagger UI):** <https://gridguardian-linear-regression-model.onrender.com/docs>
+**The Dataset Source:** <https://www.kaggle.com/datasets/mexwell/smart-home-energy-consumption/data>
+
 ## 🔍 Brief Description
 
 GridGuardian uses a machine learning model to predict household appliance energy consumption. It leverages factors like household size, appliance type, and seasonal variations to provide insights into energy usage patterns. This empowers users to make informed decisions and optimize energy consumption in their smart homes.
@@ -88,13 +95,13 @@ R² Score
 **Clone the Repository:**
 
 ```bash
-git clone https://github.com/your-username/grid-guardian.git
+git clone https://github.com/IrakizaGaius/linear_regression_model.git
 ```
 
 **Navigate to the Project Directory:**
 
 ```bash
-cd grid-guardian
+cd gridguardian
 ```
 
 **Install Dependencies:**
