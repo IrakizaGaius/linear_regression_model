@@ -736,17 +736,7 @@ Future<void> loginUser(
       );
     }
   } on FirebaseAuthException catch (e) {
-    String errorMessage = "An error occurred. Please try again.";
-
-    if (e.code == 'user-not-found') {
-      errorMessage = "No user found with this email.";
-    } else if (e.code == 'wrong-password') {
-      errorMessage = "Invalid password. Please try again.";
-    } else if (e.code == 'invalid-email') {
-      errorMessage = "Invalid email format.";
-    } else if (e.code == 'too-many-requests') {
-      errorMessage = "Too many attempts. Try again later.";
-    }
+    String errorMessage = "${e.message}";
 
     // Clear the form
     _emailController.clear();
