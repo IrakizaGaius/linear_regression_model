@@ -20,7 +20,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   late final TextEditingController _emailController;
   late final TextEditingController _passwordController;
   XFile? _profileImage;
-  bool _isSaving = false;
+  final bool _isSaving = false;
 
   @override
   void initState() {
