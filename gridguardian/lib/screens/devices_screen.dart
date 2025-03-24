@@ -174,14 +174,14 @@ class DeviceTile extends StatelessWidget {
     final iconData = switch (device.type) {
       DeviceType.Lights => Icons.lightbulb_outline,
       DeviceType.TV => Icons.tv,
-      DeviceType.Air_Conditioner => Icons.air,
+      DeviceType.Air_Conditioner => Icons.ac_unit,
       DeviceType.Computer => Icons.computer,
       DeviceType.DishWasher => FaIcon(FontAwesomeIcons.sink).icon,
       DeviceType.Fridge => Icons.kitchen,
       DeviceType.Heater => Icons.fireplace,
       DeviceType.Microwave => Icons.microwave,
       DeviceType.Oven => 'assets/icons/oven.png',
-      DeviceType.Washing_Machine => 'assets/icons/washing_machine.png',
+      DeviceType.Washing_Machine => Icons.water,
       _ => Icons.device_unknown, // Default icon if type is unknown
     };
 

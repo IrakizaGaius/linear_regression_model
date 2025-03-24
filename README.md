@@ -3,7 +3,7 @@
 ## Links and Resources to the whole App
 
 **GitHub Repository:** <https://github.com/IrakizaGaius/linear_regression_model.git>
-**Demo Video:** <https://www.loom.com/share/ccee943be4254bc3b8a610ca60d9d564?sid=df82dbef-c2f1-4bfc-ab31-f90a4064f173>
+**Demo Video:** <https://youtu.be/8Nl5b_ZG_yA>
 **The Prediction API Endpoint(Swagger UI):** <https://gridguardian-linear-regression-model.onrender.com/docs>
 **The Dataset Source:** <https://www.kaggle.com/datasets/mexwell/smart-home-energy-consumption/data>
 
